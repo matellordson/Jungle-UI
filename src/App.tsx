@@ -1,5 +1,5 @@
-import "./App.css";
+import { Gallery } from "../ui/gallery";
 
 export default function App() {
-  return <p>hello</p>;
+  return <Gallery />;
 }

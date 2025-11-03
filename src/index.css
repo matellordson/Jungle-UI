@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkest-skin: #3d4852;
+  --dark-skin: #606f7b;
+  --neutral-skin: #8795a1;
+  --ligth-skin: #b8c2cc;
+  --lighter-skin: #dae1e7;
+  --dark-highlight: #05df72;
+  --neutral-highlight: #7bf1a8;
+  --light-highlight: #dcfce7;
+  --idle-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.2);
+  --hover-shadow: 0 4px 6px hsla(0, 0%, 0%, 0.2);
+  --hover-focus: 0 5px 15px hsla(0, 0%, 0%, 0.2);
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-size: 17pt;
+  color: var(--dark-skin);
+  background-color: var(--lighter-skin);
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 13pt;
+  }
+}
